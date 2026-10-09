@@ -23,7 +23,7 @@ class Globo
   {
       fill(c);
       strokeWeight(10);
-      ellipse(x,y,220,100);
+      ellipse(x,y,100,100);
   }
   
 }
