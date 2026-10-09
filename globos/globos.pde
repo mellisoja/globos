@@ -1,3 +1,4 @@
+PImage cara;
 class Globo
 {
   color c;
@@ -24,6 +25,7 @@ class Globo
       fill(c);
       strokeWeight(10);
       ellipse(x,y,220,100);
+      image(cara,x,y);
   }
   
 }
@@ -35,6 +37,7 @@ void setup()
 {
   size(640,480);
   globos = new ArrayList<Globo>();  
+  cara = loadImage("face.jpg");
 }
 
 void draw()
